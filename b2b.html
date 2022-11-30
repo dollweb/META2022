@@ -1,1 +1,368 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOLLWEB 알콩인놀</title>
+<style>
+	*{ margin: 0; padding: 0;}
+	body{ color: #333; }
+	a{ text-decoration: none; color: #333;}
+	header{
+		width: 90%; height: 80px;
+		overflow: hidden;
+		margin: 0px auto;
+	}
+	header > h1{ 
+		float: left; 
+		margin-top: 20px;
+	}
+	header > nav{
+		float: right;
+		margin-top: 45px;
+	}
+	header nav a{
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
+	.main {
+		position: relative;
+		overflow: hidden;
+	}
+	.main figure.banner{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%; height: 180px;
+		margin: 0 auto;
+		background: #69f;
+		margin-bottom: 20px;
+	}
+	.main figure.banner > .figure_header{
+		width: 600px;
+		text-align: center;
+		color: white;
+	}
+	.main figure.banner > .figure_header > h2{
+		font-size: 2.5em;
+	}
+	.main .section{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.main .section .article{
+		width: 100%; 
+		overflow: hidden;
+		float: center;
+	}
+	.main .section .article > #map{
+		width: 100%; height: 500px;
+		background-color: #ccc;
+	}
+	.main .section .article p{
+		margin-bottom: 20px;
+	}
+	.main .section .aside{
+		float: left;
+		width: 34%;
+		box-sizing: border-box;
+		padding: 20px;
+		padding-top: 0;
+	}
+	fieldset{ 
+		width: 100%; 
+		padding: 10px;
+		border: none;
+	}
+	legend{ 
+		font-size: 1.6em; 
+		margin-bottom: 20px;
+	}
+	label{ display: block; }
+	input, textarea{ 
+		border: none;
+		background: #ddd;
+		padding: 10px;
+		resize: none;
+	}
+	label, input, textarea, .mbtn { 
+		width: 20%;
+		margin-bottom: 10px;
+		margin : 20px;
+	}
+	abutton{
+		background: #fe6081; 
+		color: white;
+		border: none;
+		padding: 10px 40px;
+	}
+	.mbtn { 
+		height: 100px;
+		font-size: 2em;
+	}
+	.exhibitionCard { 
+		display: inline-block;
+		float: left;
+		margin : 30px;
+		border: 1px solid gray;
+	}
+
+	button:hover{
+		background: #ff80ab;
+	}
+
+</style>	
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	
+<header>
+	<h1>DOLLWEB 알콩인놀</h1>
+	<nav>
+		<span><a href="https://dollweb.github.io/home/">Home</a></span>
+		<span><a href="https://smartstore.naver.com/zidollshop">About</a></span>
+		<span><a href="https://www.youtube.com/channel/UCUDPJy527Gt_8zlDyIFz7Rg">Contact Us</a></span>
+	</nav>
+</header>
+<div class="main"> 
+	<figure class="banner">
+		<div class="figure_header">
+			<h2>알콩달콩 인형놀이터</h2>
+			<p>국내 육일 및 브라이스 의상과 인형옷</p>
+		</div>
+	</figure>	
+		<div class="asidemenu">
+				<center>
+				<fieldset>
+					<span class="form-group">
+						<button class="mbtn" onclick='cal(0)'>전체상품</button>
+					</span>
+					<span class="form-group">
+						<button class="mbtn" onclick='cal(1)'>인형옷</button>
+					</span>
+					<span class="form-group">
+						<button class="mbtn" onclick='cal(2)'>강의</button>
+					</span>
+					<span class="form-group">
+						<button class="mbtn" onclick='cal(3)'>커뮤니티공유</button>
+					</span>
+				</fieldset>
+				</center>
+		</div>
+
+		<center>
+	<div id="cal1" style="display:inline-block; align:center;">
+            <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3661/" data-code="3661">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			      <a href="https://smartstore.naver.com/zidollshop/products/6437495225?NaPm=ct%3Dl3n06pgg%7Cci%3D4bd97b35fe4517f05b61411c91b885b9d9c95035%7Ctr%3Dsls%7Csn%3D2142969%7Chk%3Df34b433a089ea82aee0822196511cdfccc801d7d">
+                        <img class="exhibitionCard-image" src="https://shopping-phinf.pstatic.net/main_8398199/83981995558.1.jpg?type=f300" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">블라우스 브라이스 또는 육일사이즈, 육일돌의상</div>
+                        </div>
+                        <div class="exhibitionCard-admission">20,000원</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+            </div>
+
+            <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3658/" data-code="3658">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #a1949b;">
+			    <a href="https://smartstore.naver.com/zidollshop/products/6051454784?NaPm=ct%3Dl3sp1n54%7Cci%3D23d95d514fb31dccb3067516c61f7c16543e0e48%7Ctr%3Dsls%7Csn%3D2142969%7Chk%3Dfafab6b82ea5da08f1d0ed9af212a110fc348530">
+			    <img class="exhibitionCard-image" src="https://shopping-phinf.pstatic.net/main_8359595/83595954272.jpg?type=f300" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">컨츄리드레스세트, 육일사이즈, 인형원피스, 육일돌의상</div>
+                        <div class="exhibitionCard-admission">53,000원</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3658"></div>
+            </div>
+
+            <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3589/" data-code="3589">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #484c42;">
+			    <a href="https://smartstore.naver.com/zidollshop/products/6661183298?NaPm=ct%3Dl3sp4x74%7Cci%3D2295b0c3054afdf584335c0526413e0e079ddaae%7Ctr%3Dsls%7Csn%3D2142969%7Chk%3D5b23d01a93cb44c2cbc6e0f3340451ebfc187a4c">
+                        <img class="exhibitionCard-image" src="https://shopping-phinf.pstatic.net/main_8420568/84205683620.jpg?type=f300" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">샘플 드레스 세일(디자인 선택)</div>
+                        <div class="exhibitionCard-admission">19,000원</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3589"></div>
+            </div>
+
+            <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3653/" data-code="3653">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #d1dfe4;">
+			    <a href="https://smartstore.naver.com/zidollshop/products/6466123131?NaPm=ct%3Dl3sp72cw%7Cci%3D107edcb026acf01b6a7c06cff1e32aa29d9cd9cb%7Ctr%3Dsls%7Csn%3D2142969%7Chk%3Da38db96e6fa09c5e5298381f9a0ce731cfcf2072">
+                        <img class="exhibitionCard-image" src="https://shopping-phinf.pstatic.net/main_8401062/84010623464.jpg?type=f300" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">딸기원피스(포켓&미니육일 또는 USD 사이즈 선택)</div>
+                        <div class="exhibitionCard-admission">32,000원</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3653"></div>
+            </div>
+    </center>
+
+    <center>
+	 <div id="cal0" style="display:inline-block; align:center;">
+				
+            <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3662/" data-code="3662">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/PxRLakWoV1U">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/an_webp/PxRLakWoV1U/mqdefault_6s.webp?du=3000&sqp=CNDBvZQG&rs=AOn4CLDWCKB1mmFnfhqf1YLSJz973cqdJg" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">브라이스인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+            </div>
+		 
+		             <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3663/" data-code="3663">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/yAuMyuSFzmw">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/vi/yAuMyuSFzmw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBL3LFi9l3V2ByjmpWfUypjY3wI3A" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">파올라레이나옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+            </div>
+		 
+		             <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3664/" data-code="3664">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/quZeKVR-1o8">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/an_webp/quZeKVR-1o8/mqdefault_6s.webp?du=3000&sqp=CMHn0pQG&rs=AOn4CLDY_WTPqEINwELSXehJHxhQHqpgmQ" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">미싱으로 인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+            </div>
+		 
+		             <div class="exhibitionCard">
+                <a class="exhibitionCard-a" href="/exhibition/3666/" data-code="3666">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/BNfkPWD4hjI">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/vi/BNfkPWD4hjI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSqKC4DVpJCirz__hxxu3I4Pni7w" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">32cm 인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+            </div>
+		 
+    </center>
+
+ <div>
+				     <center>
+	 <div id="cal2" style="display:none; align:center;">
+				
+<div>
+		 <a class="exhibitionCard-a" href="/exhibition/3662/" data-code="3662">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/PxRLakWoV1U">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/an_webp/PxRLakWoV1U/mqdefault_6s.webp?du=3000&sqp=CNDBvZQG&rs=AOn4CLDWCKB1mmFnfhqf1YLSJz973cqdJg" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">브라이스인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+			 </div>
+<div>		 
+                <a class="exhibitionCard-a" href="/exhibition/3663/" data-code="3663">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/yAuMyuSFzmw">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/vi/yAuMyuSFzmw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBL3LFi9l3V2ByjmpWfUypjY3wI3A" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">파올라레이나옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+		 
+                <a class="exhibitionCard-a" href="/exhibition/3664/" data-code="3664">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/quZeKVR-1o8">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/an_webp/quZeKVR-1o8/mqdefault_6s.webp?du=3000&sqp=CMHn0pQG&rs=AOn4CLDY_WTPqEINwELSXehJHxhQHqpgmQ" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">미싱으로 인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+			</div>
+		 
+			<div>
+                <a class="exhibitionCard-a" href="/exhibition/3666/" data-code="3666">
+                    <div class="exhibitionCard-imageWrap" style="background-color: #141417;">
+			    <a href="https://youtu.be/BNfkPWD4hjI">
+                        <img class="exhibitionCard-image" src="https://i.ytimg.com/vi/BNfkPWD4hjI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSqKC4DVpJCirz__hxxu3I4Pni7w" />
+                        <div class="card-imageMask"></div>
+                    </div>
+                    <div class="exhibitionCard-textBox">
+                        <div class="exhibitionCard-state">32cm 인형옷 만들기</div>
+                    </div>
+                </a>
+                <div class="card-collectionBox" data-code="3661"></div>
+			</div>
+
+    </center>
+				      </div>
+		<center>
+           		<div id="cal3" style="width:80%;height:500px; display:none; border:10px solid black;">
+    		<div class="asidemenu2" style="width:20%;float:left;border:10px solid black;">
+    				<center>
+    				<fieldset>
+    					<div class="form-group">
+         		    <a href="http://viennadollmuseum.com/web/index.php">
+			<img class="exhibitionCard-image" src="http://tirolvillage.com/web/img_vienna/7.jpg" />
+    					</div>
+    				</fieldset>
+    				</center>
+    		</div>
+			</div>
+		</div>
+					<center>
+	</div>
+	
+</div>
+	
+<script>
+function cal(nn) {
+  for ( i=0 ; i<=3 ; i++ )
+      document.querySelector('#cal' + i).style.display = 'none'
+  document.querySelector('#cal' + nn).style.display = 'inline-block'
+}
+
+</script>
+
+<script src="cal2.js"></script>
+
+</body>
+</html>
