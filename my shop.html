@@ -13,7 +13,7 @@
 		padding: 0px;
 		color: #000;
 	}
-	.span_tag{
+	.div_tag{
 		display:plex;
 		width: 1200px;
 		background:skyblue;
@@ -21,36 +21,19 @@
 		margin: auto;
 		height: 400px;		
 	}
-	.span_tag > span{
+	.div_tag > li{
 		plex: 1;
 	}
-	
-.amount{
-	display:plex;
-	width:1280px;
-	background:#fff;
-	}
-.amount > li > div{
-	text-align: center;
-	}
-	
 </style>	
 </head>
 <body>
-	<div class="span_tag">
-		<span>span1</span>
-		<span>span2</span>
-		<span>span3</span>
-		<span>span4</span>
+	<div class="div_tag">
+		<li><div>span1</div></li>
+		<li><div>span2</div></li>
+		<li><div>span3</div></li>
+		<li><div>span4</div></li>
 	</div>
-	<div>
-		<ul class="amount">
-	<li><div>dd</div></li>
-        <li><div>dd</div></li>
-        <li><div>dd</div></li>
-        <li><div>dd</div></li>
-<ul>
-	</div>
+
 <script>
 function cal(nn) {
   for ( i=0 ; i<=3 ; i++ )
