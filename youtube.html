@@ -2,32 +2,106 @@
 <head>
 <title>META DOLLWEB</title>
 </head>
+<body>
+<h1><a href="index.html">META DOLLWEB</a></h1>
 <style>
-	*{ margin: 0; padding: 0;}
-	body{ color: #333; }
-	a{ text-decoration: none; color: #333;}
+	*{
+		list-style: none;
+		text-decoration: none;
+		border-collapse: collapse;
+		margin: 0px;
+		padding: 0px;
+		color: #000;
+	}
 	header{
-		width: 90%; height: 80px;
+		width: 90%; height: 20px;
 		overflow: hidden;
 		margin: 0px auto;
 	}
 	header > h1{ 
 		float: left; 
-		margin-top: 20px;
+		margin-top: 10px;
 	}
-</style>
+	header > nav{
+		float: right;
+		margin-top: 0px;
+	}
+	header nav a{
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main {
+		position: relative;
+		overflow: hidden;
+		height: 100px;
+		background: #fff;
+	}
+	.main > .banner{
+		text-align: center;
+		width: 100%;
+		height: 100px;
+		margin: 0px auto;
+		margin-top: 10px;
+		background: #fff;
+	}
+	.main > .banner > h2{
+		font-size: 2.5em;
+	}
+	.div_tag{
+		display: flex;
+		width: 1200px;
+		background:#fff;
+		text-align: center;
+		margin: 0 auto;
+		height: 290px;		
+	}
+	.div_tag > li{
+		flex: 1;
+		display: inline-block;
+		float: left;
+		margin : 10px;
+		border: 1px solid #fff;
+	}
+	.div_tag > li > div{
+		text-align: center;
+	}
+</style>	
+</head>
+<header>
+	<nav>
+		<span><a href="https://dollweb.github.io/meta2022/">Home</a></span>
+		<span><a href="https://www.instagram.com/zidollshop/">About</a></span>
+		<span><a href="https://www.youtube.com/@zidollshop764">Contact Us</a></span>
+	</nav>
+</header>
+	<div class="main">
+		<div class="banner">
+			<h2>메타버스 인형놀이터</h2>
+			<p>인형 컬렉션 제작 유튜브 강의</p>
+		</div>
+	</div>
 <body>
-<h1><a href="index.html">META DOLLWEB</a></h1>
-<h2>안녕하세요. 메타 돌웹 유튜브 강의입니다.</h2>
-<iframe width="699" height="393" src="https://www.youtube.com/embed/0MbsThqjFj0" title="How to make doll Basic pants, 육일인형,인형옷만들기,1/6doll" frameborder="0" allow="acelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="699" height="393" src="https://www.youtube.com/embed/PxRLakWoV1U" title="브라이스인형옷만들기, 인형옷diy,dolloutfits, blythe doll, How to make dollclothes, dolldress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-<iframe width="699" height="393" src="https://www.youtube.com/embed/BCuof-sX2uA" title="How to make doll skirt,육일인형,인형옷만들기,1/6doll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-<iframe width="699" height="393" src="https://www.youtube.com/embed/FEmDUJsg6IQ" title="인형옷만들기,blythedoll,1/6doll,dollclothes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-<iframe width="699" height="393" src="https://www.youtube.com/embed/BNfkPWD4hjI" title="인형옷만들기/How to make doll outfits. paolareina, paolareinaclothes, dolldress, 32cm doll,파올라레이나,레이나옷만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  </body>
+	<div class="div_tag">
+		<li><div>
+			<iframe width="699" height="393" src="https://www.youtube.com/embed/0MbsThqjFj0" title="How to make doll Basic pants, 육일인형,인형옷만들기,1/6doll" frameborder="0" allow="acelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="exhibitionCard-textBox">판매 예정 컬렉션</div>
+		</div></li>
+		
+		<li><div>
+			<iframe width="699" height="393" src="https://www.youtube.com/embed/PxRLakWoV1U" title="브라이스인형옷만들기, 인형옷diy,dolloutfits, blythe doll, How to make dollclothes, dolldress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="exhibitionCard-textBox">늦가을 컬렉션</div>
+		</div></li>
+		
+		<li><div>
+			<iframe width="699" height="393" src="https://www.youtube.com/embed/BCuof-sX2uA" title="How to make doll skirt,육일인형,인형옷만들기,1/6doll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="exhibitionCard-textBox">주말 달달 컬렉션</div>
+		</div></li>
+	
+		<li><div>
+			<iframe width="699" height="393" src="https://www.youtube.com/embed/FEmDUJsg6IQ" title="인형옷만들기,blythedoll,1/6doll,dollclothes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="exhibitionCard-textBox">쪼륵 컬렉션</div>				
+		</div></li>
+	</div>
+</body>
 </html>
